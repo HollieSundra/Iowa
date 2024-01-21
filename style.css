@@ -94,6 +94,14 @@ span {
     font-size: 45px;
 }
 
+section #more-cities {
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    display: inline-block;
+}
+
 aside {
     position: relative;
 }
