@@ -58,6 +58,224 @@ header h1 {
     font-size: 200px;
     margin: 0;
 }
+
+section {
+    position: relative;
+    background-color: #fffcfc;
+}
+
+.city-overview {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.city-overview img {
+    width: 300px;
+    height: 300px;
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.city-overview h2 {
+    font-size: 100px;
+    background-color: #FFD952;
+    color: black;
+    padding: 20px 50px;
+    margin: -380px 0 0 0;
+    box-sizing: content-box;
+    border: solid #FFD952 15px;
+    box-shadow: -6px 6px 2px lightgray;
+    margin-bottom: 10px;
+}
+
+.city-overview p {
+    background-color: #fffcfc;
+    text-wrap: wrap;
+    font-size: 50px;
+    text-indent: 40px;
+    padding: 15px;
+    margin: 10px 30px 0 40px;
+    box-sizing: content-box;
+    border: transparent 5px;
+    max-width: 1900px;
+}
+
+#source1 {
+    margin-top: 20px;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+#source1 h3 {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+}
+
+#source1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#source1 li {
+    font-size: 18px;
+    margin: 0;
+}
+
+#source1 li a {
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.region-classification {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#capital {
+    width: 100%;
+    height: 1000px;
+    margin-bottom: -30px;
+}
+
+#sixcounty {
+    width: 400px;
+    height: 400px;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.region-classification h2 {
+    font-size: 100px;
+    background-color: #FFD952;
+    color: black;
+    padding: 20px 50px;
+    margin: -450px 0 0 0;
+    box-sizing: content-box;
+    border: solid #FFD952 15px;
+    box-shadow: -6px 6px 2px lightgray;
+    margin-bottom: 10px;
+}
+
+.region-classification p {
+    background-color: #fffcfc;
+    text-wrap: wrap;
+    font-size: 50px;
+    text-indent: 40px;
+    padding: 20px;
+    margin: 30px 30px -50px 50px;
+    box-sizing: content-box;
+    border: transparent 5px;
+    max-width: 2000px;
+}
+
+#source2 {
+    margin-top: 20px;
+    align-self: flex-start;
+    margin-left: 30px;
+}
+
+#source2 h3 {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+}
+
+#source2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#source2 li {
+    font-size: 18px;
+    margin: 0;
+}
+
+#source2 li a {
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.income-economy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.income-economy img {
+    width: 100%;
+    height: 800px;
+}
+
+.income-economy h2 {
+    font-size: 100px;
+    background-color: #FFD952;
+    color: black;
+    padding: 20px 50px;
+    margin: -100px 0 0 0;
+    box-sizing: content-box;
+    border: solid #FFD952 15px;
+    box-shadow: -6px 6px 2px lightgray;
+    margin-bottom: 10px;
+}
+
+table {
+    
+}
+
+.income-economy p {
+    background-color: #fffcfc;
+    text-wrap: wrap;
+    font-size: 50px;
+    text-indent: 40px;
+    padding: 15px;
+    margin: 10px 30px 0 40px;
+    box-sizing: content-box;
+    border: transparent 5px;
+    max-width: 1900px;
+}
+
+#source3 {
+    margin-top: 20px;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+#source3 h3 {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+}
+
+#source3 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#source3 li {
+    font-size: 18px;
+    margin: 0;
+}
+
+#source3 li a {
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -107,3 +325,4 @@ ul.social li {
     padding: 5px 150px;
     border-radius: 5px;
 }
+
