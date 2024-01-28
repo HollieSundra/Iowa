@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 1em;
 }
 
 .nav-links {
@@ -20,20 +20,20 @@ nav {
 }
 
 .nav-links li {
-    margin-right: 100px;
+    margin-right: 6em;
 }
 
 .nav-links a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 250%;
 }
 
 nav .logo img {
-    width: 120px !important;
-    height: 75px !important;
-    margin-left: 20px;
+    width: 7em !important;
+    height: 5em !important;
+    margin-left: 1.5em;
 }
 
 
@@ -45,7 +45,7 @@ header {
 
 header img {
     width: 100%;
-    height: 800px;
+    height: 50em;
     object-fit: cover;
     display: block;
 }
@@ -55,7 +55,7 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 200px;
+    font-size: 12em;
     margin: 0;
 }
 
@@ -65,19 +65,19 @@ section {
 }
 
 section h2 {
-    margin-bottom: 40px;
-    font-size: 80px;
+    margin-bottom: 1em;
+    font-size: 5em;
 }
 
 section li {
     flex: 1;
-    margin: 0 10px;
+    margin: 0 1em;
 }
 
 section img {
-    border-radius: 15px;
-    width: 400px;
-    height: 280px;
+    border-radius: 1em;
+    width: 25em;
+    height: 17em;
     box-shadow: -6px 6px 2px lightgray;
 }
 
@@ -90,12 +90,12 @@ section ul {
 
 span {
     display: block;
-    margin-bottom: 10px;
-    font-size: 45px;
+    margin-bottom: 1em;
+    font-size: 3em;
 }
 
 section #more-cities {
-    font-size: 45px;
+    font-size: 3em;
     text-decoration: none;
     color: black;
     padding: 30px;
@@ -112,39 +112,39 @@ aside .nickname {
 
 aside .nickname img {
     width: 100%;
-    height: 1000px;
+    height: 70em;
     display: block;
 }
 
 aside .nickname h2 {
     position: absolute;
-    font-size: 70px;
-    bottom: 10%;
+    font-size: 4.5em;
+    bottom: 2em;
     left: 0;
-    background-color: #FDE50D;
-    padding: 15px;
-    margin-top: -10px;
+    background-color: #FFD952;
+    padding: .2em;
     box-sizing: content-box;
-    border: solid #FDE50D 10px;
+    border: solid #FFD952 10px;
     box-shadow: -6px 6px 2px lightgray;
+    z-index: 1;
 }
 
 aside .nickname p {
     background-color: #fffcfc;
     text-wrap: wrap;
-    font-size: 45px;
-    padding: 10px;
+    font-size: 3em;
+    padding: .5em;
     margin: 0;
     box-sizing: content-box;
     border: transparent 10px;
     position: relative;
-    top: 50px;
+    top: 1em;
 }
 
 
 .old-map {
     width: 100%;
-    height: 600px;
+    height: 45em;
 }
 
 aside .moto {
@@ -153,27 +153,51 @@ aside .moto {
 
 aside .moto img {
     width: 100%;
-    height: 1200px;
+    height: 80em;
 }
 
 aside .moto h3 {
     position: absolute;
-    font-size: 64px;
+    font-size: 4.5em;
     white-space: wrap;
-    top: 200px;
-    left: 200px;
+    top: 3em;
+    left: 3em;
     color: white;
-    padding: 40px;
-    margin: 10px;
+    padding: .5em;
+    margin: .5em;
     box-sizing: content-box;
     border: transparent 10px;
-    max-width: 600px;
+    max-width: 10em;
 }
 
-section ul li a {
-    height: 150px;
+#source {
+    margin-top: 3em;
+    align-self: flex-end;
+    margin-left: 90%;
 }
 
+#source h3 {
+    font-size: 2em;
+    font-style: italic;
+    margin: 0;
+}
+
+#source ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#source li {
+    font-size: 2em;
+    margin: 0;
+}
+
+#source li a {
+    font-size: 2em;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
 footer {
     display: flex;
     justify-content: space-between;
@@ -188,9 +212,10 @@ footer {
 }
 
 footer h4 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    margin-left: 200px;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 60%;
 }
 
 ul.social {
@@ -200,28 +225,27 @@ ul.social {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-left: 150px;
-    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-bottom: 20%;
 }
 
 ul.social li {
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .social li img {
-    padding: 10px;
-    width: 70px;
-    height: 70px;
+    padding: .5em;
+    width: 3em;
+    height: 3em;
 }
 
 .contact-us {
     text-decoration: none;
     font-weight: strong;
     color: black;
-    font-size: 45px;
+    font-size: 3em;
     border: transparent 10px;
-    padding: 5px 150px;
-    border-radius: 5px;
+    padding: 1em 5em;
 }
 
 

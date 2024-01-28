@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 1em;
 }
 
 .nav-links {
@@ -20,20 +20,20 @@ nav {
 }
 
 .nav-links li {
-    margin-right: 100px;
+    margin-right: 6em;
 }
 
 .nav-links a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 250%;
 }
 
 nav .logo img {
-    width: 120px !important;
-    height: 75px !important;
-    margin-left: 20px;
+    width: 7em !important;
+    height: 5em !important;
+    margin-left: 1.5em;
 }
 
 
@@ -45,7 +45,7 @@ header {
 
 header img {
     width: 100%;
-    height: 800px;
+    height: 50em;
     object-fit: cover;
     display: block;
 }
@@ -55,7 +55,7 @@ header h1 {
     top: 20%;
     left: 20%;
     transform: translate(-50%, -50%);
-    font-size: 200px;
+    font-size: 12em;
     margin: 0;
 }
 
@@ -72,45 +72,46 @@ section {
 }
 
 .city-overview img {
-    width: 300px;
-    height: 300px;
+    width: 17em;
+    height: 17em;
     align-self: flex-end;
-    margin-right: 30px;
-    margin-top: 30px;
+    margin-right: 3em;
+    margin-top: 3em;
 }
 
 .city-overview h2 {
-    font-size: 100px;
+    font-size: 5em;
     background-color: #FFD952;
     color: black;
-    padding: 20px 50px;
-    margin: -380px 0 0 0;
+    padding: 1% 3%;
+    margin: -4.8em 0 0 0;
     box-sizing: content-box;
     border: solid #FFD952 15px;
     box-shadow: -6px 6px 2px lightgray;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .city-overview p {
     background-color: #fffcfc;
     text-wrap: wrap;
-    font-size: 50px;
-    text-indent: 40px;
-    padding: 15px;
-    margin: 10px 30px 0 40px;
+    font-size: 3.5em;
+    text-indent: 3%;
+    padding: 1rem;
+    margin: 1% 2% 0 2%;
     box-sizing: content-box;
     border: transparent 5px;
     max-width: 1900px;
 }
 
 #source1 {
-    margin-top: 20px;
+    margin-top: 1em;
     align-self: flex-end;
-    margin-right: 30px;
+    margin-left: 80%;
+    margin-right: 1em;
 }
 
 #source1 h3 {
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
     margin: 0;
 }
@@ -121,12 +122,12 @@ section {
 }
 
 #source1 li {
-    font-size: 18px;
+    font-size: 1em;
     margin: 0;
 }
 
 #source1 li a {
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
     text-decoration: none;
     color: black;
@@ -141,50 +142,50 @@ section {
 
 #main-image {
     width: 100%;
-    height: 1000px;
-    margin-bottom: -30px;
+    height: 70em;
+    margin-bottom: -1em;
 }
 
 #side-image {
-    width: 400px;
-    height: 400px;
+    width: 18em;
+    height: 18em;
     align-self: flex-start;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 .region-classification h2 {
-    font-size: 100px;
+    font-size: 6em;
     background-color: #FFD952;
     color: black;
-    padding: 20px 50px;
-    margin: -450px 0 0 0;
+    padding: 1% 3%;
+    margin: -4.2em 0 0 0;
     box-sizing: content-box;
     border: solid #FFD952 15px;
     box-shadow: 6px 6px 2px lightgray;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .region-classification p {
     background-color: #fffcfc;
     text-wrap: wrap;
-    font-size: 50px;
-    text-indent: 40px;
-    padding: 20px;
-    margin: 30px 30px -50px 50px;
+    font-size: 3em;
+    text-indent: 3%;
+    padding: 1%;
+    margin: 1% 5% -1% 3%;
     box-sizing: content-box;
     border: transparent 5px;
     max-width: 2000px;
 }
 
 #source2 {
-    margin-top: 20px;
+    margin-top: 0;
     align-self: flex-start;
-    margin-left: 30px;
+    margin-left: 90%;
 }
 
 #source2 h3 {
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
     margin: 0;
 }
@@ -195,12 +196,12 @@ section {
 }
 
 #source2 li {
-    font-size: 18px;
+    font-size: 2em;
     margin: 0;
 }
 
 #source2 li a {
-    font-size: 30px;
+    font-size: 1em;
     font-style: italic;
     text-decoration: none;
     color: black;
@@ -215,51 +216,51 @@ section {
 
 .income-economy img {
     width: 100%;
-    height: 800px;
+    height: 70em;
 }
 
 .income-economy h2 {
-    font-size: 100px;
+    font-size: 6em;
     background-color: #FFD952;
     color: black;
-    padding: 20px 50px;
-    margin: -100px 0 0 0;
+    padding: 1% 3%;
+    margin: -1em 0 0 0;
     box-sizing: content-box;
     border: solid #FFD952 15px;
     box-shadow: -6px 6px 2px lightgray;
-    margin-bottom: 10px;
+    margin-bottom: .5em;
 }
 
 .economy-info {
     background-color: #fffcfc;
     text-wrap: wrap;
-    font-size: 45px;
-    text-indent: 40px;
+    font-size: 3em;
+    text-indent: 4%;
     box-sizing: content-box;
     border: transparent 5px;
     display: flex;
-    margin: 30px;
+    margin: 0 3% 0 3%;
 }
 
 .economy-text{
     flex: 1;
-    margin-right: 20px;
+    margin-right: 2%;
     box-sizing: border-box;
 }
 
 .economy-table {
     float: right;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 table {
     max-width: 50%;
     width: 50%;
-    height: 50px;
+    height: 5%;
     border-collapse: collapse;
-    margin: 10px 0;
+    margin: 1% 0;
 }
 
 th, td {
@@ -269,14 +270,14 @@ th, td {
 }
 
 #source3 {
-    margin-top: -50px;
-    margin-right: 30px;
+    margin-top: 1%;
+    margin-right: 2em;
 }
 
 #source3 h3 {
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
-    margin-left: 20px;
+    margin-left: 1%;
 }
 
 #source3 ul {
@@ -284,15 +285,15 @@ th, td {
     flex-direction: row;
     list-style-type: none;
     padding: 0;
-    margin-top: -20px;
+    margin-top: 0;
 }
 
 #source3 li {
-    margin-left: 20px;
+    margin-left: 1%;
 }
 
 #source3 li a {
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
     text-decoration: none;
     color: black;
@@ -308,20 +309,20 @@ th, td {
 
 #header-img {
     width: 100%;
-    height: 1200px;
-    margin-bottom: -30px;
+    height: 70em;
+    margin-bottom: -2%;
 }
 
 .national-parks h2 {
-    font-size: 100px;
+    font-size: 6em;
     background-color: #FFD952;
     color: black;
-    padding: 20px 80px;
-    margin: -25px 0 0 auto;
+    padding: 1% 5%;
+    margin: -1% 0 0 auto;
     box-sizing: content-box;
     border: solid #FFD952 15px;
     box-shadow: 6px 6px 2px lightgray;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     width: 25%;
 }
 
@@ -339,9 +340,9 @@ th, td {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 60px;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    margin-top: 2%;
 }
 
 .images {
@@ -350,39 +351,42 @@ th, td {
 }
 
 .main {
-    width: 1000px;
-    height: 800px;
+    width: 60em;
+    height: 50em;
     display: block;
+    border-radius: 5%;
 }
 
 .map {
     position: absolute;
-    bottom: -30px;
-    right: -30px;
-    width: 200px;
-    height: 250px;
+    bottom: -5%;
+    right: -5%;
+    width: 15em;
+    height: 18em;
     border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 0 6px 2px lightgray;
 }
 
 .park-details {
-    font-size: 80px;
+    font-size: 4em;
     flex: 2;
     margin-left: 400px;
 }
 
 .park-details ol {
-    padding: 10px;
+    padding: 1%;
 }
 
 #source4 {
     position: absolute;
     bottom: 0;
-    right: 40px;
+    right: 4%;
     margin-bottom: 0;
 }
 
 #source4 h3 {
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
     margin: 0;
 }
@@ -397,7 +401,7 @@ th, td {
 }
 
 #source4 li a {
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
     text-decoration: none;
     color: black;
@@ -417,9 +421,10 @@ footer {
 }
 
 footer h4 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    margin-left: 200px;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 20%;
+    margin-left: 60%;
 }
 
 ul.social {
@@ -429,27 +434,26 @@ ul.social {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-left: 150px;
-    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-bottom: 20%;
 }
 
 ul.social li {
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .social li img {
-    padding: 10px;
-    width: 70px;
-    height: 70px;
+    padding: .5em;
+    width: 3em;
+    height: 3em;
 }
 
 .contact-us {
     text-decoration: none;
     font-weight: strong;
     color: black;
-    font-size: 45px;
+    font-size: 3em;
     border: transparent 10px;
-    padding: 5px 150px;
-    border-radius: 5px;
+    padding: 2em 7em;
 }
 
