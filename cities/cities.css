@@ -57,6 +57,8 @@ header h1 {
     transform: translate(-50%, -50%);
     font-size: 12em;
     margin: 0;
+    font-style: italic;
+    font-weight: 700;
 }
 
 section {
@@ -80,6 +82,8 @@ section {
 }
 
 .city-overview h2 {
+    font-style: italic;
+    font-weight: 800;
     font-size: 5em;
     background-color: #FFD952;
     color: black;
@@ -156,6 +160,8 @@ section {
 
 .region-classification h2 {
     font-size: 6em;
+    font-style: italic;
+    font-weight: 800;
     background-color: #FFD952;
     color: black;
     padding: 1% 3%;
@@ -221,6 +227,8 @@ section {
 
 .income-economy h2 {
     font-size: 6em;
+    font-style: italic;
+    font-weight: 800;
     background-color: #FFD952;
     color: black;
     padding: 1% 3%;
@@ -315,6 +323,8 @@ th, td {
 
 .national-parks h2 {
     font-size: 6em;
+    font-style: italic;
+    font-weight: 800;
     background-color: #FFD952;
     color: black;
     padding: 1% 5%;

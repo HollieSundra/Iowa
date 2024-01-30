@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Iowa</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <a href="http://www.iowa.gov/">
+                    <img src="./assets/iowalogo1.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Iowa">History</a></li>
+                <li><a href="https://iowadot.gov/maps/Digital-maps/State-maps/Iowa-Transportation-Map1">Maps</a></li>
+                <li><a href="cities.html">Cities</a></li>
+                <li><a href="https://www.iowadnr.gov/Places-to-Go/State-Parks/Iowa-State-Parks">Parks</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <form action="submit_form.php" method="post">
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name: </label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="confirmEmail">Confirm Email: </label>
+            <input type="email" id="confirmEmail" name="confirmEmail" required>
+
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        </body>
+</html>
