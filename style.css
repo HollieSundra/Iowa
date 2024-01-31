@@ -268,33 +268,46 @@ ul.social li {
 }
 
 form {
-    max-width: 400px;
-    margin: 2% auto;
+    max-width: 600px;
+    margin: 5% auto;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    background-image: url(./assets/form\ background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 label {
     display: block;
     margin-bottom: 1%;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
 }
 
 input, textarea {
     width: 100%;
-    padding: 1%;
+    padding: 1.5%;
     margin-bottom: 2%;
     box-sizing: border-box;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #45a048;
     color: white;
-    padding: 1% 3%;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 2% 4%;
     border: none;
-    border-radius: 2%;
+    border-radius: 4%;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #173c19;
 }
 
 

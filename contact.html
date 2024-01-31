@@ -8,8 +8,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
     </head>
     <body>
+        <div class="page-wrapper">
         <nav>
             <div class="logo">
                 <a href="http://www.iowa.gov/">
@@ -27,21 +29,23 @@
         </nav>
         <form action="submit_form.php" method="post">
             <label for="firstName">First Name: </label>
-            <input type="text" id="firstName" name="firstName" required>
+            <input type="text" id="firstName" name="firstName" required placeholder="Enter first name">
 
             <label for="lastName">Last Name: </label>
-            <input type="text" id="lastName" name="lastName" required>
+            <input type="text" id="lastName" name="lastName" required placeholder="Enter last name">
 
             <label for="email">Email: </label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required placeholder="Enter email">
 
             <label for="confirmEmail">Confirm Email: </label>
-            <input type="email" id="confirmEmail" name="confirmEmail" required>
+            <input type="email" id="confirmEmail" name="confirmEmail" required placeholder="Confirm email">
 
             <label for="message">Message: </label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <textarea id="message" name="message" rows="10" required placeholder="Enter message here!"></textarea>
 
             <button type="submit">Submit</button>
         </form>
+        <div id="alertMessage" style="color: red;"></div>
+    </div>
         </body>
 </html>
