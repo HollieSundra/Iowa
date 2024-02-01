@@ -3,18 +3,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (form) {
 
-        document.getElementById('confirmEmail').addEventListener('input', function () {
-            validateEmailMatch();
+        var confirmEmail = document.getElementById('confirmEmail');
+        confirmEmail.addEventListener('input', function () {
+            checkEmailMatch();
         });
-
 
         form.addEventListener('submit', function (event) {
             event.preventDefault();
 
-            if (validateEmail()) {
-
+            if (checkForm()) {
                 alert('Message sent successfully!');
-
                 clearForm();
             }
 
@@ -23,17 +21,37 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-function validateEmail() {
+function checkEmail() {
     var email = document.getElementById('email').value;
     var confirmEmail = document.getElementById('confirmEmail').value;
 
     if (email !== confirmEmail) {
+        return false;
+    }
+
+    return true;
+}
+
+function checkForm() {
+    var isEmailValid = checkEmail();
+
+    if (!isEmailValid) {
         alert('Emails must match!');
         return false;
     }
 
-
     return true;
+}
+
+function checkEmailMatch() {
+    var isEmailValid = checkEmail();
+    var confirmEmail = document.getElementById('confirmEmail');
+
+    if (!isEmailValid) {
+        confirmEmail.style.backgroundColor = 'rgb(232, 94, 94)';
+    } else {
+        confirmEmail.style.backgroundColor = '';
+    }
 }
 
 function clearForm() {
@@ -42,4 +60,8 @@ function clearForm() {
     document.getElementById('email').value = '';
     document.getElementById('confirmEmail').value = '';
     document.getElementById('message').value = '';
+
+    
+    document.getElementById('confirmEmail').style.borderColor = '';
 }
+
