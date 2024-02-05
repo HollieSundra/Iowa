@@ -217,6 +217,29 @@ aside .moto h3 {
     text-decoration: none;
     color: black;
 }
+
+.city-aside {
+    width: 100%;
+    overflow: hidden;
+}
+
+.city-item {
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.city-item img {
+    width: 100%;
+    height: 40em;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
 footer {
     display: flex;
     justify-content: space-between;
