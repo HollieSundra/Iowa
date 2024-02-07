@@ -292,7 +292,8 @@ ul.social li {
 
 form {
     max-width: 600px;
-    margin: 5% auto;
+    margin: 5% 25% auto;
+    float: inline-end;
 }
 
 .page-wrapper {
@@ -312,9 +313,9 @@ label {
 }
 
 input, textarea {
-    width: 100%;
-    padding: 1.5%;
-    margin-bottom: 2%;
+    width: 200%;
+    padding: 5%;
+    margin-bottom: 5%;
     box-sizing: border-box;
 }
 
